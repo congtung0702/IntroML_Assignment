@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs (kept out of git; folders preserved via .gitkeep)
+output/predictions/*.csv
+output/figures/*
+!output/*/.gitkeep
